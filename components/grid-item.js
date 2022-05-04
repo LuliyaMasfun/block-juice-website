@@ -21,9 +21,9 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const PortfolioGridItem = ({ children, href, title, thumbnail }) => (
+export const PortfolioGridItem = ({ children,id, href, title, thumbnail }) => (
   <Box w="100%" align="center">
-    <NextLink href={`/portfolio/${id}`}>
+    <NextLink href={`/portfolio/${id}`} scroll={false}>
       <LinkBox cursor="pointer">
         <Image
           src={thumbnail}
@@ -42,5 +42,11 @@ export const PortfolioGridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 export const GridItemStyle = () => () => (
-
+    <Global
+        styles = {`
+        .grid-item-thumbnail{
+            border-radius:12px;
+        }
+    `}
+    />
 )
