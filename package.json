@@ -2,17 +2,17 @@
   "name": "blockjuice-website",
   "version": "1.0.0",
   "description": "Website for Block Juice",
- 
   "scripts": {
-   "dev": "next dev",
-   "build": "next build",
-   "prettier": "prettier -write .",
-   "lint": "next lint"
+    "dev": "next dev",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "Luliya Masfun",
   "license": "ISC",
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
