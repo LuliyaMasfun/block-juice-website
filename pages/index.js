@@ -9,10 +9,13 @@ import {
     ListItem
      } from '@chakra-ui/react'
 import Section from'../components/section'
+import Layout from '../components/layouts/article'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { IoLogoYoutube, IoLogoInstagram } from 'react-icons/io5'
+
 const Page = () => {
   return (
+      <Layout>
     <Container>
         <Section delay={0.1}>
       <Box
@@ -64,6 +67,7 @@ const Page = () => {
         </List>
       </Section>
     </Container>
+    </Layout>
   )
 }
 export default Page

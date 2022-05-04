@@ -20,9 +20,11 @@ import thumbAdoMord from '../public/images/portfolio/thumbAdoMord.jpg'
 import thumbPuma from '../public/images/portfolio/thumbPuma.jpeg'
 import thumbIceBunnen from '../public/images/portfolio/thumbIceBunnen.jpeg'
 import blockJuiceEnt from '../public/images/portfolio/blockJuiceEnt.png'
+import Layout from '../components/layouts/article'
 
 const Portfolio = () =>{
     return(
+        <Layout>
         <Container>
             <Heading as="h2" fontSize={20} mb={4}>
             Portfolio
@@ -93,9 +95,9 @@ const Portfolio = () =>{
                     Click here to see more
                 </PortfolioGridItem>
             </Section>
-
             </SimpleGrid>
         </Container>
+        </Layout>
     )
 }
 
