@@ -13,6 +13,7 @@ import Layout from '../components/layouts/article'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { IoLogoYoutube, IoLogoInstagram } from 'react-icons/io5'
 
+
 const Page = () => {
   return (
       <Layout>

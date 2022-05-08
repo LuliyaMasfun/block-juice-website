@@ -10,7 +10,7 @@ import {
 
  export const Title = ({ children }) => (
      <Box>
-         <NextLink>
+         <NextLink href="/portfolio">
              <Link>Portfolio</Link>
          </NextLink>
      
@@ -25,7 +25,7 @@ import {
     </Box>
  )
  export const PortfolioImage = ({src, alt}) => (
-     <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
+     <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} cursor="pointer" />
  )
  export const Meta = ({children}) => (
      <Badge colorScheme="orange" mr={2}>
