@@ -21,7 +21,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const PortfolioGridItem = ({ children,id, href, title, thumbnail }) => (
+export const PortfolioGridItem = ({ children,id, title, thumbnail }) => (
   <Box w="100%" align="center">
     <NextLink href={`/portfolio/${id}`} scroll={false}>
       <LinkBox cursor="pointer">
@@ -32,11 +32,11 @@ export const PortfolioGridItem = ({ children,id, href, title, thumbnail }) => (
           placeholder="blur"
         />
         <LinkOverlay href={`/portfolio/${id}`}>
-          <Text mt={2} fontSize={20}>
+          <Text mt={2} fontSize={14}>
             {title}
           </Text>
         </LinkOverlay>
-        <Text fontSize={14}>{children}</Text>
+        <Text fontSize={12}>{children}</Text>
       </LinkBox>
     </NextLink>
   </Box>
