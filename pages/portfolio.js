@@ -28,7 +28,7 @@ const Portfolio = () => (
       <Heading as="h2" fontSize={20} mb={4}>
         Portfolio
       </Heading>
-      <SimpleGrid columns={[1, 1, 2]} gap={10}>
+      <SimpleGrid columns={[1,1,2]} gap={10}>
         <Section>
           <PortfolioGridItem
             id="cherrie-mami"
@@ -80,7 +80,7 @@ const Portfolio = () => (
             title='Jazlin, Bbaby - "Spicy"'
             thumbnail={thumbSpicy}
           >
-            Commercial video for Mcdonalds Spicy nuggets
+            Commercial video for Mcdonalds "Spicy nuggets"
           </PortfolioGridItem>
         </Section>
         <Section>

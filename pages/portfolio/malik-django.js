@@ -13,7 +13,6 @@ import { Title, PortfolioImage, Meta } from '../../components/portfolio'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { getServerSideProps } from '../../components/chakra'
 import Section from '../../components/section'
 
 const Work = () => {
@@ -33,7 +32,7 @@ const Work = () => {
 
         <P>
           The Stockholm up and coming rapper Malik Dalasi dropped his first
-          single "Slimewalk" on Block Juice YouTube plattform. For "Django"
+          single "Slimewalk" on Block Juice plattform. For the "Django"
           music video we walked the streets of Barcelona, Spain. Check it out
           below!
         </P>

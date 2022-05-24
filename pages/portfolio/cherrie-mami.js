@@ -13,9 +13,6 @@ import { Title, PortfolioImage, Meta } from '../../components/portfolio'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import worksCherrieMami from '../../public/images/portfolio/worksCherrieMami.jpeg'
-import thumbCherrieMami from '../../public/images/portfolio/thumbCherrieMami.png'
-import { getServerSideProps } from '../../components/chakra'
 import Section from '../../components/section'
 
 const Work = () => {
@@ -45,7 +42,7 @@ const Work = () => {
 
        <Section>
             <Meta>Director, Dop & Edit</Meta>
-            <Link href="./pages/about"> Luliya Masfun</Link>
+            <Link href="/about"> Luliya Masfun</Link>
             <ExternalLinkIcon mx="2px" />
         </Section>
 

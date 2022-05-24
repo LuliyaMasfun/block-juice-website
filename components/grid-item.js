@@ -22,7 +22,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 )
 
 export const PortfolioGridItem = ({ children,id, title, thumbnail }) => (
-  <Box w="110%" align="center">
+  <Box w="100%" align="center">
     <NextLink href={`/portfolio/${id}`} scroll={false}>
       <LinkBox cursor="pointer">
         <Image

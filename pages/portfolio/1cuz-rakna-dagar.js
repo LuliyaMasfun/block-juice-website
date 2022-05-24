@@ -26,9 +26,9 @@ const Work = () => {
         </ListItem>
         </List>
 
-         <P>I have to say, Block Juice were very early on the Einar train. We had our eyes and ears out for this young talented artist since
-             his freestyle videos on instagram and debute single "Ducka Popo" that he later deleted off his plattforms. 
-             For this project 1Cuz the well established artist and Einar came togheter and created a great song with a sentemental value for both the artists.
+         <P>I have to say, we were early on the Einar train. We had our eyes and ears out for this young artist since
+             his freestyle videos on instagram and before the debute single "Ducka Popo". 
+             1Cuz the established Swedish artist and Einar came togheter and created a song with "sentemental value for both of us".
              Block Juice is behind the production of this music video, check it out below!
         </P>
 
@@ -37,7 +37,7 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Director</Meta>
-            <Link href="./pages/about"> Luliya Masfun  & Ani Ahmed</Link>
+            <Link href="/about"> Luliya Masfun  & Ani Ahmed</Link>
           </ListItem>
           <ListItem>
           <Meta>Dop</Meta>

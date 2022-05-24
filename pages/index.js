@@ -12,7 +12,6 @@ import Section from'../components/section'
 import Layout from '../components/layouts/article'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { IoLogoYoutube, IoLogoInstagram } from 'react-icons/io5'
-import { UncontrolledCarousel, Row, Col } from "reactstrap";
 
 
 const Page = () => {
@@ -20,16 +19,13 @@ const Page = () => {
       <Layout>
     <Container>
         <Section delay={0.1}>
-
-      
-
       <Box
         borderRadius="lg"
         p={3} 
         mb={6} 
         textAlign="center"
         >
-        Hello, we are a production company based in Sweden!
+        Hello, we are a production company and music-plattform based in Sweden!
       </Box>
       </Section>
 
