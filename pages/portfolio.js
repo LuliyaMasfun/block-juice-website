@@ -12,7 +12,7 @@ import thumbRickyAbonnenten from '../public/images/portfolio/thumbRickyAbonnente
 import thumbZeSverigeVet from '../public/images/portfolio/thumbZeSverigeVet.jpeg'
 import thumbZeTaPlats from '../public/images/portfolio/thumbZeTaPlats.jpeg'
 import thumbAdoMord from '../public/images/portfolio/thumbAdoMord.jpg'
-import thumbPuma from '../public/images/portfolio/thumbPuma.jpeg'
+import thumbPuma from '../public/images/portfolio/thumbPumaOg.png'
 import thumbIceBunnen from '../public/images/portfolio/thumbIceBunnen.jpeg'
 import blockJuiceEnt from '../public/images/portfolio/blockJuiceEnt.png'
 import universalMusic from '../public/images/portfolio/universalMusic.png'
@@ -95,7 +95,7 @@ const Portfolio = () => (
         <Section>
           <PortfolioGridItem
             id="puma"
-            title="She Moves Us, Puma nordic "
+            title="She Moves Us, Puma nordic"
             thumbnail={thumbPuma}
           >
             Commercial video for Puma SS22
