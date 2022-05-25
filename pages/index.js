@@ -32,7 +32,7 @@ const Page = () => {
       <Section delay={0.1}>
       <Box align="center" my={4}>
           <NextLink href="/portfolio" scroll={false}>
-            <Button rightIcon={ <ChevronRightIcon /> } colorScheme="orange">
+            <Button rightIcon={ <ChevronRightIcon /> } colorScheme={'orange'}>
               The Portfolio
             </Button>
           </NextLink>
