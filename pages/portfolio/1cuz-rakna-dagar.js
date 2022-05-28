@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, NextLink, ListItem, SimpleGrid, GridItem, Divider } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, SimpleGrid, GridItem, Divider } from '@chakra-ui/react'
 import { Title, PortfolioImage, Meta } from '../../components/portfolio'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
