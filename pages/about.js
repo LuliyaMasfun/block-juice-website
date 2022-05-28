@@ -1,4 +1,4 @@
-import { Container, Heading, Box, color } from "@chakra-ui/react";
+import { Container, Heading, Box } from "@chakra-ui/react";
 import Section from "../components/section";
 import Image from "next/image";
 
