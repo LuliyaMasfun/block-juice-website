@@ -2,10 +2,7 @@ import {
     Container,
     Badge,
     Link,
-    List,
-    ListItem,
     Divider,
-    Grid,
     SimpleGrid,
     GridItem
   } from '@chakra-ui/react'

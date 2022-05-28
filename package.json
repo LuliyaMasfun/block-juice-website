@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "prettier": "prettier -write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod:server": "cross-env NODE_ENV=production node server.js",
+    "start": "npm-run-all -s build prod:server"
   },
   "keywords": [],
   "author": "Luliya Masfun",
@@ -16,12 +18,21 @@
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
     "framer-motion": "^6.3.3",
+    "morgan": "^1.10.0",
     "next": "^12.1.6",
+    "pusher": "^5.1.0-beta",
+    "pusher-js": "^7.1.0-beta",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "reactstrap": "^9.0.2"
+    "reactstrap": "^9.0.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint-config-next": "^12.1.6",

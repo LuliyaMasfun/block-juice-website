@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Button, position} from '@chakra-ui/react'
+import {Box, Button} from '@chakra-ui/react'
 import Section from '../components/section'
 import { IoLogoYoutube, IoLogoInstagram } from 'react-icons/io5'
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import {Container, Badge, Link, SimpleGrid, GridItem, Divider} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
