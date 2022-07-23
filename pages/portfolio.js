@@ -2,18 +2,18 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { PortfolioGridItem, GridItem } from '../components/grid-item'
-import thumbCherrieMami from '../public/images/portfolio/thumbCherrieMami.png'
-import thumb1Cuz from '../public/images/portfolio/thumb1Cuz.png'
+import CherrieThumb from '../public/images/thumbs/CherrieThumb.png'
+import EinarThumb from '../public/images/thumbs/EinarThumb.png'
 import thumbMalikDjango from '../public/images/portfolio/thumbMalikDjango.webp'
-import thumbRozhDras from '../public/images/portfolio/thumbRozhDras.jpeg'
+import RozhTumb from '../public/images/thumbs/RozhTumb.png'
 import thumbRedbull from '../public/images/portfolio/thumbRedbull.jpeg'
 import thumbSpicy from '../public/images/portfolio/thumbSpicy.png'
-import thumbRickyAbonnenten from '../public/images/portfolio/thumbRickyAbonnenten.jpeg'
+import RickyThumb from '../public/images/thumbs/RickyThumb.png'
 import thumbZeSverigeVet from '../public/images/portfolio/thumbZeSverigeVet.jpeg'
-import thumbZeTaPlats from '../public/images/portfolio/thumbZeTaPlats.jpeg'
+import TaPlatsThumb from '../public/images/thumbs/TaPlatsThumb.png'
 import thumbAdoMord from '../public/images/portfolio/thumbAdoMord.jpg'
-import thumbPuma from '../public/images/portfolio/thumbPumaOg.png'
-import thumbIceBunnen from '../public/images/portfolio/thumbIceBunnen.jpeg'
+import PumaThumb from '../public/images/thumbs/PumaThumb.png'
+import IceThumb from '../public/images/thumbs/IceThumb.png'
 import blockJuiceEnt from '../public/images/portfolio/blockJuiceEnt.png'
 import universalMusic from '../public/images/portfolio/universalMusic.png'
 import warnerMusic from '../public/images/portfolio/warnerMusic.png'
@@ -21,6 +21,9 @@ import topClassMusic from '../public/images/portfolio/topClassMusic.jpeg'
 import redBull from '../public/images/portfolio/redBull.png'
 import meraki from '../public/images/portfolio/meraki.png'
 import teamPlatina from '../public/images/portfolio/teamPlatina.jpg'
+import test1 from '../public/images/portfolio/test1.png'
+import StickyThumb from '../public/images/thumbs/StickyThumb.png'
+import GreekazoThumb from '../public/images/thumbs/GreekazoThumb.png'
 
 const Portfolio = () => (
   <Layout>
@@ -29,11 +32,20 @@ const Portfolio = () => (
         Portfolio
       </Heading>
       <SimpleGrid columns={[1,1,2]} gap={10}>
+      <Section>
+          <PortfolioGridItem
+            id="ado-sticky"
+            title='Ado - "Sticky"'
+            thumbnail={StickyThumb}
+          >
+            Directed by Luliya Masfun
+          </PortfolioGridItem>
+        </Section>
         <Section>
           <PortfolioGridItem
             id="cherrie-mami"
             title='Cherrie - "Mami"'
-            thumbnail={thumbCherrieMami}
+            thumbnail={CherrieThumb}
           >
             Directed by Luliya Masfun
           </PortfolioGridItem>
@@ -42,7 +54,7 @@ const Portfolio = () => (
           <PortfolioGridItem
             id="1cuz-rakna-dagar"
             title='1Cuz ft Einar - "Räkna Mina Dagar"'
-            thumbnail={thumb1Cuz}
+            thumbnail={EinarThumb}
           >
             Directed by Luliya Masfun
           </PortfolioGridItem>
@@ -69,9 +81,18 @@ const Portfolio = () => (
           <PortfolioGridItem
             id="rozh-dras"
             title='Rozh - "Dras Till Problem"'
-            thumbnail={thumbRozhDras}
+            thumbnail={RozhTumb}
           >
             Directed by Luliya Masfun
+          </PortfolioGridItem>
+        </Section>
+        <Section>
+          <PortfolioGridItem
+            id="greekazo-bestfriend"
+            title='Greekazo - "Bästfriend"'
+            thumbnail={GreekazoThumb}
+          >
+            Edited by Luliya Masfun
           </PortfolioGridItem>
         </Section>
         <Section>
@@ -87,7 +108,7 @@ const Portfolio = () => (
           <PortfolioGridItem
             id="ricky-abonnenten"
             title='Ricky Rich - "Abonnenten"'
-            thumbnail={thumbRickyAbonnenten}
+            thumbnail={RickyThumb}
           >
             Directed by Luliya Masfun
           </PortfolioGridItem>
@@ -96,7 +117,7 @@ const Portfolio = () => (
           <PortfolioGridItem
             id="puma"
             title="She Moves Us, Puma nordic"
-            thumbnail={thumbPuma}
+            thumbnail={PumaThumb}
           >
             Commercial video for Puma SS22
           </PortfolioGridItem>
@@ -114,7 +135,7 @@ const Portfolio = () => (
           <PortfolioGridItem
             id="ice-bunnen"
             title='Ice Csay - "Bunnen"'
-            thumbnail={thumbIceBunnen}
+            thumbnail={IceThumb}
           >
             Directed by Luliya Masfun
           </PortfolioGridItem>
@@ -132,7 +153,7 @@ const Portfolio = () => (
           <PortfolioGridItem
             id="ze-ta-plats"
             title='ZE - "Ta Plats"'
-            thumbnail={thumbZeTaPlats}
+            thumbnail={TaPlatsThumb}
           >
             Directed by Luliya Masfun
           </PortfolioGridItem>
