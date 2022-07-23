@@ -20,7 +20,7 @@ const Page = () => {
         <Section delay={0.1}>
       <Box
         borderRadius="lg"
-        p={3} 
+        p={4} 
         mb={6} 
         textAlign="center"
         >
